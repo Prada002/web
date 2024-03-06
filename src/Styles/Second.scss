@@ -1,0 +1,110 @@
+.branding {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px;
+}
+.brand_img {
+  display: flex;
+  // justify-content: space-around;
+  // justify-content: center;
+  width: 85vw;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1106px) {
+  .brand_img {
+    // width: 70vw;
+    flex-wrap: wrap;
+    // display: flex;
+    // justify-content: flex-start;
+    // flex-grow: 1;
+    justify-content: space-evenly;
+  }
+}
+
+// THIS WAS THIRD JS SCSS PROPERTY
+
+.cards {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(242, 244, 199);
+}
+
+.addvertisement {
+  display: flex;
+  width: 90vw;
+
+  // //   margin-top: 80px;
+  // justify-content: space-between;
+}
+// .txt {
+//   display: flex;
+// }
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  row-gap: 20px;
+  // column-gap: -100px;
+}
+.left {
+  display: flex;
+
+  // width: 622px;
+}
+// .img_size {
+//   width: 200px;
+//   // height: 400px;
+// }
+
+@media screen and (max-width: 1446px) {
+  .addvertisement {
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width: 1446px) {
+  .card {
+    justify-content: space-evenly;
+  }
+}
+@media screen and (min-width: 1757px) {
+  .img_size {
+    width: 25vw;
+  }
+  // .left1 {
+  //   width: 50vw;
+  // }
+}
+@media screen and (max-width: 810px) {
+  .left {
+    display: none;
+  }
+}
+// @media screen and (max-width: 699px) {
+//   .left2 {
+//     width: 300px;
+//     height: 300px;
+//     display: flex;
+//     align-items: center;
+//     //     transform: rotate(90deg);
+//     //     position: relative;
+//     //     display: flex;
+//     //     flex-direction: column;
+//   }
+//   .left {
+//     width: 30px;
+//     height: 30px;
+//     display: flex;
+//     align-items: center;
+//     position: sticky;
+//   }
+//   .left {
+//     display: flex;
+//     //   flex-direction: column;
+//   }
+// }

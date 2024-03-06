@@ -1,0 +1,90 @@
+.whole-body {
+  display: flex;
+  //   justify-content: center;
+  //   width: 90vw;
+  //
+}
+.shop_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  //   column-gap: 0px;
+  margin-top: 50px;
+  width: 85vw;
+}
+// .shop_cards img {
+//   width: 290px;
+// }
+.fifth {
+  display: flex;
+  justify-content: center;
+}
+.brand1 {
+  background-image: url("../Assets/background.svg");
+  background-repeat: no-repeat;
+  // width: 1420px;
+  height: 575px;
+  background-size: 100vw;
+}
+@media screen and (max-width: 1265px) {
+  .brand1 {
+    height: 400px;
+  }
+}
+
+.zara {
+  position: absolute;
+  // left: 25%;
+  // background-color: rgb(255, 0, 0);
+  width: 432px;
+  height: 350px;
+  margin-left: 64%;
+  display: flex;
+  flex-wrap: wrap;
+
+  // color: aqua;
+}
+.bg_content {
+  color: antiquewhite;
+  // background-color: aqua;
+  // align-items: center;
+  // justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding-left: 840px;
+  padding-top: 180px;
+
+  p {
+    width: 360px;
+    flex-wrap: wrap;
+    //styleName: Paragraph;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  button {
+    height: 40px;
+    width: 150px;
+    // font-family: "Times New Roman", Times, serif;
+    //styleName: Button - Larg;
+    font-family: Roboto;
+    font-size: 19px;
+    text-align: center;
+  }
+}
+.zara1 {
+  height: 80px;
+  width: 170px;
+}
+@media screen and (max-width: 1300px) {
+  .bg_content {
+    display: none;
+  }
+  .zara {
+    display: none;
+  }
+}
